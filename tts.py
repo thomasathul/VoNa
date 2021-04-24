@@ -33,7 +33,7 @@ while(1):
     r.adjust_for_ambient_noise(source3,duration=0.0001)
     print("Listening...")
     SpeakText("Listening")
-    audio3 = r.listen(source3, phrase_time_limit=2)
+    audio3 = r.listen(source3, phrase_time_limit=4)
     try:
       print("Recognizing...")
       SpeakText("Recognizing")
@@ -72,7 +72,7 @@ while(1):
     r.adjust_for_ambient_noise(source2, duration=0.000001)
     print("Listening...")
     SpeakText("Listening")
-    audio2 = r.listen(source2, phrase_time_limit=2)
+    audio2 = r.listen(source2, phrase_time_limit=4)
     try:
       print("Recognizing...")
       SpeakText("Recognizing")
