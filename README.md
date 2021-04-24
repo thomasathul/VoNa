@@ -4,7 +4,7 @@ A voice narrator which can read and translate story text files.
 ## Steps to run the project
 
 ```
-1. Download / CLone the project.
+1. Download / Clone the project.
 ```
 
 ```
