@@ -1,0 +1,17 @@
+Python libraries needed to run the project
+
+gtts
+(pip install gtts)
+
+speech_recognition
+(pip install SpeechRecognition)
+
+pyttsx3
+(pip install pyttsx3)
+
+google_trans_new
+(pip install google_trans_new)
+
+playsound
+(pip install playsound)
+
