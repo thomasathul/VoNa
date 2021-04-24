@@ -14,3 +14,5 @@ A voice narrator which can read and translate story text files.
 ```
 3.Run the project on terminal or IDE.
 ```
+
+Sample text file source:- https://blog.reedsy.com/creative-writing-prompts/contests/84/submissions/58256/
