@@ -32,11 +32,11 @@ while(1):
   with sr.Microphone() as source3:
     r.adjust_for_ambient_noise(source3,duration=0.0001)
     print("Listening...")
-    SpeakText("Listening")
+    playsound("C:\\Users\\Dell\\Documents\\VoNa\\notification.mp3")
     audio3 = r.listen(source3, phrase_time_limit=4)
     try:
-      print("Recognizing...")
-      SpeakText("Recognizing")
+      print("Recognizing...") 
+      playsound("C:\\Users\\Dell\\Documents\\VoNa\\notification1.mp3")
       filename = r.recognize_google(audio3)
       filename = filename.lower()
       mytext = open(os.path.join(path, filename+".txt"), "r")
@@ -71,11 +71,11 @@ while(1):
   with sr.Microphone() as source2:
     r.adjust_for_ambient_noise(source2, duration=0.000001)
     print("Listening...")
-    SpeakText("Listening")
+    playsound("C:\\Users\\Dell\\Documents\\VoNa\\notification.mp3")
     audio2 = r.listen(source2, phrase_time_limit=4)
     try:
       print("Recognizing...")
-      SpeakText("Recognizing")
+      playsound("C:\\Users\\Dell\\Documents\\VoNa\\notification1.mp3")
       name = r.recognize_google(audio2)
     except sr.UnknownValueError:
       print("Sorry, Cant understand, Please say again")
