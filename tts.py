@@ -38,7 +38,7 @@ while(1):
       print("Recognizing...") 
       playsound("C:\\Users\\Dell\\Documents\\VoNa\\notification1.mp3")
       filename = r.recognize_google(audio3)
-      filename = filename.lower()
+      filename = filename.lower().replace(" ","")
       mytext = open(os.path.join(path, filename+".txt"), "r")
       print("Found filename "+filename+".txt")
       SpeakText("Found filename "+filename+".txt")
@@ -169,7 +169,7 @@ while(1):
 readobj = gTTS(text=readtext, lang=language, slow=False)
 readobj.save("speak.mp3")
 print("Playing...")
-SpeakText("Playing the file, Have fun sir!")
+SpeakText("Playing the file sir!")
 playsound("C:\\Users\\Dell\\Documents\\VoNa\\speak.mp3")
 
 
