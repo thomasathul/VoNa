@@ -1,5 +1,5 @@
 # VoNa (Voice Narrator)
-A voice narrator which can read and translate story text files.
+A voice narrator which can read and translate text files.
 
 ## Steps to run the project
 
